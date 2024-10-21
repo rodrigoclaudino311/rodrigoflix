@@ -1,0 +1,67 @@
+/*fonts.google.com*/
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    /* margin: espaço externo
+    padding: espaço interno*/
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(42, 122, 228);
+            /*white...
+            #2a7a80
+            hsl(184, 51%, 33%)
+            hwb(184, 14%, 84%)*/
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.chm-txt {
+    margin-right: 5%;
+}
+
+.cat-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria h2{
+    color: rgb(42, 122, 228);
+
+
+}
+.cat-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.cat-videos img:hover{
+    opacity: 1.0;
+    border: solid 3px green;
+   }
+   
